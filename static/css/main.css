@@ -1,0 +1,53 @@
+#tabel {
+  border-color: collapse;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#tabel td,
+#tabel th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tabel tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#tabel tr:hover {
+  background-color: #ddd;
+}
+
+#tabel th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+
+#title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#submit {
+  text-align: center;
+}
+
+a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#content {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#updateTitle {
+  font-family: Arial, Helvetica, sans-serif;
+}
